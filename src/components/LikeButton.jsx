@@ -12,8 +12,8 @@ const LikeButton = () => {
     }
 
     const buttonStyle={
-        border:isHovered?'2px solid red':isClicked?'2px solid red':'2px solid gray',
-        color: isClicked?'white':isHovered ? 'red':'gray',
+        border:isHovered ? '2px solid red':isClicked?'2px solid red':'2px solid gray',
+        color: isClicked ? 'white':isHovered ? 'red':'gray',
         backgroundColor:isClicked ? 'red':'white',
         borderRadius:'20px',
         padding:'8px 12px',
@@ -22,7 +22,7 @@ const LikeButton = () => {
     }
 
     const heartStyle={
-        color:isClicked ? 'white':isHovered?'red' :'gray'
+        color:isClicked ? 'white':isHovered ? 'red' :'gray'
     }
 
   return (
