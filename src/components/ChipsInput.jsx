@@ -15,8 +15,11 @@ const handleRemove=(indexValue)=>{
 }
 
   return (
-    <div>
-        <input onChange={handleChange} onKeyDown={(e)=>{if(e.key==='Enter'){
+    <>
+     <h1 style={{textAlign:'center'}}>Day2</h1>
+    <div style={{marginTop:'20px',justifyContent:'center', display:'flex' }} >
+       
+        <input style={{padding:'20px',width:'250px' }} onChange={handleChange} onKeyDown={(e)=>{if(e.key==='Enter'){
             e.preventDefault();
             if(value.trim()){
                 setcChips([...chips,value.trim()]);
@@ -40,6 +43,7 @@ const handleRemove=(indexValue)=>{
        
       
     </div>
+    </>
   )
 }
 

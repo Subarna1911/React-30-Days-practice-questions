@@ -27,6 +27,7 @@ const LikeButton = () => {
 
   return (
    <>
+   <h1 style={{textAlign:'center'}}>Day 1</h1>
    <div style={{display:"flex",justifyContent:"center",alignItems:"center",marginTop:"50"}}>
     <button style={buttonStyle} onClick={handleClick}
     onMouseEnter={()=> setIsHovered(true)}
