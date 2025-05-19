@@ -4,14 +4,14 @@ import { useState } from 'react'
 const ChipsInput = () => {
 
     const[value,setValue] = useState("");
-    const[chips,setcChips] = useState([]);
+    const[chips,setChips] = useState([]);
 
     const handleChange=(e)=>{
         setValue(e.target.value);
     }
 
 const handleRemove=(indexValue)=>{
-    setcChips(chips.filter((_,index)=>index !== indexValue));
+    setChips(chips.filter((_,index)=>index !== indexValue));
 }
 
   return (
@@ -22,7 +22,7 @@ const handleRemove=(indexValue)=>{
         <input style={{padding:'20px',width:'250px' }} onChange={handleChange} onKeyDown={(e)=>{if(e.key==='Enter'){
             e.preventDefault();
             if(value.trim()){
-                setcChips([...chips,value.trim()]);
+                setChips([...chips,value.trim()]);
                 setValue('');
             }
         }
