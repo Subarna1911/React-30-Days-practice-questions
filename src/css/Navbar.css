@@ -1,0 +1,36 @@
+.navbar{
+    max-width:100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navbar .logo{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.navbar-list{
+    display: flex;
+    gap:2rem;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar li a:hover{
+    color:aqua;
+}
+
+.day4{
+    text-align: center;
+}
