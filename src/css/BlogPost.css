@@ -1,0 +1,30 @@
+.card {
+  padding: 1.5rem; 
+  background-color: #fff; 
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+}
+
+.post-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 1rem;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.main-container{
+    padding: 2rem;
+}
+
+.card-tags{
+    margin-top: 0.5rem;
+}
+
+.card-reactions{
+    margin:0.5rem 0;
+}

@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Navbar from './components/Navbar'
 import DarkMode from './components/DarkMode'
+import BlogPost from './components/BlogPost'
 
 const App = () => {
   const items = [
@@ -31,6 +32,7 @@ const App = () => {
   
   return (
   <>
+  <BlogPost/>
   <DarkMode/>
   <Navbar/>
   <Routes>
