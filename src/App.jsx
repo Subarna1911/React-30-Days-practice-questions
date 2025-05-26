@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import DarkMode from './components/DarkMode'
 import BlogPost from './components/BlogPost'
 import Sidebar from './components/Sidebar'
+import ContactForm from './components/ContactForm'
 
 const App = () => {
   
@@ -34,6 +35,7 @@ const App = () => {
   
   return (
   <>
+  <ContactForm/>
   <Sidebar/>
   <BlogPost/>
   <DarkMode/>

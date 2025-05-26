@@ -1,0 +1,39 @@
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid hsl(2px, 4px, 10px);
+    box-shadow: 4px 5px 12px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.name-field  input,.email-field input,.message-field textarea{
+    padding: 12px;
+    width: 100%;
+    margin:16px 0;
+    outline: none;
+}
+
+.submit-btn{
+    display: inline-block;
+    width: 120px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+
+.submit-btn:hover{
+    background-color:#182848 ;
+    transform: scale(1.1);
+} 
