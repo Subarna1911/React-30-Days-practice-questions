@@ -8,8 +8,10 @@ import About from './pages/About'
 import Navbar from './components/Navbar'
 import DarkMode from './components/DarkMode'
 import BlogPost from './components/BlogPost'
+import Sidebar from './components/Sidebar'
 
 const App = () => {
+  
   const items = [
     {
       title: "JavaScript Basics",
@@ -32,6 +34,7 @@ const App = () => {
   
   return (
   <>
+  <Sidebar/>
   <BlogPost/>
   <DarkMode/>
   <Navbar/>
