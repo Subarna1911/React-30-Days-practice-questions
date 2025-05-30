@@ -10,6 +10,7 @@ import DarkMode from './components/DarkMode'
 import BlogPost from './components/BlogPost'
 import Sidebar from './components/Sidebar'
 import ContactForm from './components/ContactForm'
+import Counter from './components/Counter'
 
 const App = () => {
   
@@ -35,6 +36,7 @@ const App = () => {
   
   return (
   <>
+  <Counter/>
   <ContactForm/>
   <Sidebar/>
   <BlogPost/>
